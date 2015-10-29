@@ -10,7 +10,7 @@ La práctica consiste en desplegar el conversor de temperaturas de grados Celsiu
 ## 1. Acceso a IAAAS
 Se accedió a la página Enlace página práctica [iaaas.ull.es](http://iaas.ull.es/) y se inició sessión con la cuenta universitaria Alu0100XXYYZZ con su correspondiente contraseña.
 
-Se comprobó que existiera la máquina virtual: ![VMSYTW](images/s1.png "VMSYTW")
+Se comprobó que existiera la máquina virtual: ![VMSYTW](./images/s1.png "VMSYTW")
 Figura 1.
 
 En la Figura 2, se pueden observar las especificaciones de la máquina virtual asignada:
@@ -70,7 +70,7 @@ Para accedió a la página de la aplicación de la siguiente manera:
 
           direccionIP:puerto/ruta
 
-          e.g.:http://10.6.128.92:8080/index.html 
+          e.g.:http://10.6.128.92:8080/index.html
 # Enlaces
 
 Enlace página práctica [Cálculadora temperatura](https://quinoescobar.github.io/sytw_prt_04)
