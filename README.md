@@ -10,15 +10,15 @@ La práctica consiste en desplegar el conversor de temperaturas de grados Celsiu
 ## 1. Acceso a IAAAS
 Se accedió a la página Enlace página práctica [iaaas.ull.es](http://iaas.ull.es/) y se inició sessión con la cuenta universitaria Alu0100XXYYZZ con su correspondiente contraseña.
 
-Se comprobó que existiera la máquina virtual: ![VMSYTW](./images/s1.png "VMSYTW")
+Se comprobó que existiera la máquina virtual: ![VMSYTW](./images/s1.PNG "VMSYTW")
 Figura 1.
 
 En la Figura 2, se pueden observar las especificaciones de la máquina virtual asignada:
-![VMSYTW2](images/s2.png "VMSYTW2")
+![VMSYTW2](images/s2.PNG "VMSYTW2")
 Figura 2.
 
 Se procedió a Encender la máquina virtual y ejecutar la consola, como se puede ver en la Figura 3.
-![VMSYTW3](images/s3.png "VMSYTW3")
+![VMSYTW3](images/s3.PNG "VMSYTW3")
 Figura 3.
 
 
@@ -27,38 +27,38 @@ Se ejecutó el comando:
 
           $ ifconfig
 Se obtuvo la dirección IP , ver Figura 4.
-![VMSYTW4](images/s4.png "VMSYTW4")
+![VMSYTW4](images/s4.PNG "VMSYTW4")
 Figura 4.
 
 Con la dirección IP identificada, se procedió a añadir en la máquina local un alias para las conexiones, ver Figura 5  :
 
           $ ~.ssh/config
-![VMSYTW42](images/s42.png "VMSYTW42")
+![VMSYTW42](images/s42.PNG "VMSYTW42")
 Figura 5.
 
 Se comprobó la conexión desde la terminal local:
-![VMSYTW6](images/s6.png "VMSYTW6")
+![VMSYTW6](images/s6.PNG "VMSYTW6")
 Figura 6.
 
 ## 3.Actualización
 Se realizó una actualización de la máquina virtual:
-![VMSYTW5](images/s5.png "VMSYTW42")
+![VMSYTW5](images/s5.PNG "VMSYTW42")
 Figura 7.
 ## 4. Clonación
 Se clonó el repositorio de la práctica 3 :
-![VMSYTW7](images/s7.png "VMSYTW7")
+![VMSYTW7](images/s7.PNG "VMSYTW7")
 Figura 8.
 ## 5. Instalación
 Se instaló en la máquina virtual Node Package Manager:
-![VMSYTW8](images/s8.png "VMSYTW8")
+![VMSYTW8](images/s8.PNG "VMSYTW8")
 Figura 9.
 
 Al finalizar la instalación de npm, se procedió a instalar todos los paquetes necesarios para el funcionamiento de nuestra aplicación:
-![VMSYTW9](images/s9.png "VMSYTW9")
+![VMSYTW9](images/s9.PNG "VMSYTW9")
 Figura 10.
 
 Se instaló node-static, ya que es necesario para el funcionamiento del servidor y no se encontraba en las dependencias de la aplicación:
-![VMSYTW10](images/s10.png "VMSYTW10")
+![VMSYTW10](images/s10.PNG "VMSYTW10")
 Figura 11.
 ## 6. Arrancando servidor
 
@@ -77,6 +77,6 @@ Enlace página práctica [Cálculadora temperatura](https://quinoescobar.github.
 
 Enlace página Desplegada [Cálculadora temperatura](http://localhost:8080/index.html )
 
-Enlace test de la práctica [Cálculadora temperatura](https://quinoescobar.github.io/sytw_prt_04/tests/)
+Enlace test de la práctica [Cálculadora temperatura](http://localhost:8080/tests/)
 
 Enlace página author [Quinoescobar](https://quinoescobar.github.io)
