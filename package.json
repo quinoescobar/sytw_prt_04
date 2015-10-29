@@ -1,7 +1,7 @@
 {
   "name": "practica3",
   "version": "1.0.0",
-  "description": "Práctica que mejora el conversor de temperatura, ahora usando herencia, clases en javascript y BDD y otras cositas",
+  "description": "Práctica desplegada en IAAAS",
   "main": "temperatura.js",
   "directories": {
   "test": "tests"
@@ -17,7 +17,7 @@
 
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quinoescobar/sytw_prt_03.git"
+    "url": "git+https://github.com/quinoescobar/sytw_prt_04.git"
   },
 
 
@@ -32,11 +32,11 @@
   "author": "José Joaquín Escobar Gómez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/quinoescobar/sytw_prt_03/issues"
+    "url": "https://github.com/quinoescobar/sytw_prt_04/issues"
   },
 
 
-  "homepage": "https://github.com/quinoescobar/sytw_prt_03#readme",
+  "homepage": "https://github.com/quinoescobar/sytw_prt_04#readme",
 
   "dependencies": {},
   "devDependencies": {
