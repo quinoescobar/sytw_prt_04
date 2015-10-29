@@ -1,0 +1,57 @@
+{
+  "name": "practica3",
+  "version": "1.0.0",
+  "description": "Práctica que mejora el conversor de temperatura, ahora usando herencia, clases en javascript y BDD y otras cositas",
+  "main": "temperatura.js",
+  "directories": {
+  "test": "tests"
+  },
+
+
+  "scripts": {
+    "test": "open  http://localhost:3000/tests/index.html",
+    "karma": "./node_modules/karma/bin/karma start --single-run"
+
+  },
+
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quinoescobar/sytw_prt_03.git"
+  },
+
+
+  "keywords": [
+    "Práctica",
+    "3",
+    "conversor",
+    "temperatura"
+  ],
+
+
+  "author": "José Joaquín Escobar Gómez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quinoescobar/sytw_prt_03/issues"
+  },
+
+
+  "homepage": "https://github.com/quinoescobar/sytw_prt_03#readme",
+
+  "dependencies": {},
+  "devDependencies": {
+    "karma": "*",
+    "karma-mocha": "*",
+    "karma-chai": "*",
+    "karma-html2js-preprocessor": "*",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-firefox-launcher": "*",
+    "mocha":"2.3.3",
+    "chai": "^3.3.0",
+    "del": "^2.0.2",
+    "blanket" : "*",
+    "html2js": "^0.2.0"
+  }
+
+
+}
