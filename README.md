@@ -75,8 +75,8 @@ Para accedió a la página de la aplicación de la siguiente manera:
 
 Enlace página práctica [Cálculadora temperatura](https://quinoescobar.github.io/sytw_prt_04)
 
-Enlace página Desplegada [Cálculadora temperatura](http://localhost:8080/index.html )
+Enlace página Desplegada [Cálculadora temperatura](http://10.6.128.92:8080/index.html)
 
-Enlace test de la práctica [Cálculadora temperatura](http://localhost:8080/tests/)
+Enlace test de la práctica [Cálculadora temperatura](http://10.6.128.92:8080/tests/)
 
 Enlace página author [Quinoescobar](https://quinoescobar.github.io)
