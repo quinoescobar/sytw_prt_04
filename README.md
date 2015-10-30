@@ -72,7 +72,7 @@ Para accedió a la página de la aplicación de la siguiente manera:
 
           e.g.:http://10.6.128.92:8080/index.html
 # Enlaces
-Enlace a la página del Tutorial [Tutorial](https://quinoescobar.github.io/sytw_prt_04)
+Enlace a la página del Tutorial [Tutorial](https://quinoescobar.github.io/sytw_prt_04/index.html)
 
 Enlace página práctica [Cálculadora temperatura](https://quinoescobar.github.io/sytw_prt_04)
 
