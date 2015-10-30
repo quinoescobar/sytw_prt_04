@@ -1,35 +1,44 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Práctica 4-Calculadora de Temperaturas Desplegada en IAAAS</title>
-    <link rel="stylesheet" href="reset.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="global.css" media="screen" title="no title" charset="utf-8">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="práctica-4--contenidobuild-status">Práctica 4- Contenido<a href="https://travis-ci.org/quinoescobar/sytw_prt_03"><img src="https://travis-ci.org/quinoescobar/sytw_prt_03.svg" alt="Build Status" /></a></h1>
+<p>Este repositorio contiene la tercera práctica de la asignatura Sistemas y Tencologías Web desplegada en IAAAS.</p>
+<p>La práctica consiste en desplegar el conversor de temperaturas de grados Celsius a grados Farenheit, utilizando IAAAS de la Universidad de la Laguna.</p>
+<h1 id="tutorial-despliegue-en-iaaas">Tutorial Despliegue en IAAAS</h1>
+<h2 id="acceso-a-iaaas">1. Acceso a IAAAS</h2>
+<p>Se accedió a la página Enlace página práctica <a href="http://iaas.ull.es/">iaaas.ull.es</a> y se inició sessión con la cuenta universitaria Alu0100XXYYZZ con su correspondiente contraseña.</p>
+<p>Se comprobó que existiera la máquina virtual: <img src="./images/s1.PNG" title="VMSYTW" alt="VMSYTW" /> Figura 1.</p>
+<p>En la Figura 2, se pueden observar las especificaciones de la máquina virtual asignada: <img src="images/s2.PNG" title="VMSYTW2" alt="VMSYTW2" /> Figura 2.</p>
+<p>Se procedió a Encender la máquina virtual y ejecutar la consola, como se puede ver en la Figura 3. <img src="images/s3.PNG" title="VMSYTW3" alt="VMSYTW3" /> Figura 3.</p>
+<h2 id="dirección-ip">2. Dirección IP</h2>
+<p>Se ejecutó el comando:</p>
+<pre><code>      $ ifconfig</code></pre>
+<p>Se obtuvo la dirección IP , ver Figura 4. <img src="images/s4.PNG" title="VMSYTW4" alt="VMSYTW4" /> Figura 4.</p>
+<p>Con la dirección IP identificada, se procedió a añadir en la máquina local un alias para las conexiones, ver Figura 5 :</p>
+<pre><code>      $ ~.ssh/config</code></pre>
+<p><img src="images/s42.PNG" title="VMSYTW42" alt="VMSYTW42" /> Figura 5.</p>
+<p>Se comprobó la conexión desde la terminal local: <img src="images/s6.PNG" title="VMSYTW6" alt="VMSYTW6" /> Figura 6.</p>
+<h2 id="actualización">3.Actualización</h2>
+<p>Se realizó una actualización de la máquina virtual: <img src="images/s5.PNG" title="VMSYTW42" alt="VMSYTW5" /> Figura 7. ## 4. Clonación Se clonó el repositorio de la práctica 3 : <img src="images/s7.PNG" title="VMSYTW7" alt="VMSYTW7" /> Figura 8. ## 5. Instalación Se instaló en la máquina virtual Node Package Manager: <img src="images/s8.PNG" title="VMSYTW8" alt="VMSYTW8" /> Figura 9.</p>
+<p>Al finalizar la instalación de npm, se procedió a instalar todos los paquetes necesarios para el funcionamiento de nuestra aplicación: <img src="images/s9.PNG" title="VMSYTW9" alt="VMSYTW9" /> Figura 10.</p>
+<p>Se instaló node-static, ya que es necesario para el funcionamiento del servidor y no se encontraba en las dependencias de la aplicación: <img src="images/s10.PNG" title="VMSYTW10" alt="VMSYTW10" /> Figura 11. ## 6. Arrancando servidor</p>
+<p>Al finalizar la instalación de las dependencias de la aplicación, se procedió al levantamiento del servidor con el comando:</p>
+<pre><code>      $ nodejs static-server.js</code></pre>
+<p>Para accedió a la página de la aplicación de la siguiente manera:</p>
+<pre><code>      direccionIP:puerto/ruta
 
-    <script type="text/javascript" src="temperatura.js">
-
-    </script>
-  </head>
-  <body>
-    <a href="https://quinoescobar.github.io">Página del Autor</a>
-    <a href="https://github.com/quinoescobar/sytw_prt_04">Enlace al Repositorio</a>
-    <h1>Calculadora de Temperatura</h1>
-    <table>
-      <tr>
-        <th>
-          Ingrese la Temperatura (e.g: 90F, 37C, -3.14f):
-        </th>
-        <td>
-          <input name="calcular" value="" id="original" autofocus onchange="calcularW();" placeholder="434F" size="50">
-        </td>
-      </tr>
-      <tr>
-        <th>
-          Resultado, temperatura convertida:
-        </th>
-        <td><span class="output" id="converted"></span></td>
-      </tr>
-    </table>
-
-  </body>
+      e.g.:http://10.6.128.92:8080/index.html</code></pre>
+<h1 id="enlaces">Enlaces</h1>
+<p>Enlace página práctica <a href="https://quinoescobar.github.io/sytw_prt_04">Cálculadora temperatura</a></p>
+<p>Enlace página Desplegada <a href="http://10.6.128.92:8080/index.html">Cálculadora temperatura</a></p>
+<p>Enlace test de la práctica <a href="http://10.6.128.92:8080/tests/">Cálculadora temperatura</a></p>
+<p>Enlace página author <a href="https://quinoescobar.github.io">Quinoescobar</a></p>
+</body>
 </html>
